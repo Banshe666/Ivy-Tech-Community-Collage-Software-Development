@@ -1,0 +1,103 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="4lhcdU5vbAqZ4NzFC_mS">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DwceKNtdtKpCWDS7X30k-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DwceKNtdtKpCWDS7X30k-24" target="DwceKNtdtKpCWDS7X30k-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-24" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="100" y="260" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DwceKNtdtKpCWDS7X30k-25" target="DwceKNtdtKpCWDS7X30k-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-25" value="&amp;nbsp;&lt;br&gt;Number_of_Hours&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="270" y="260" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DwceKNtdtKpCWDS7X30k-27" target="DwceKNtdtKpCWDS7X30k-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-27" value="&lt;br&gt;Cost_of_Materials" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="470" y="260" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DwceKNtdtKpCWDS7X30k-29" target="DwceKNtdtKpCWDS7X30k-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-29" value="Total_Labor_Cost=&amp;nbsp; &amp;nbsp;&lt;br&gt;Number_of_hours * 30" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="671" y="260" width="199" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DwceKNtdtKpCWDS7X30k-31" target="DwceKNtdtKpCWDS7X30k-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-31" value="&amp;nbsp;Material _Final_Price=&lt;br&gt;Cost_of_Materials * 1.2" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="671" y="400" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DwceKNtdtKpCWDS7X30k-33" target="DwceKNtdtKpCWDS7X30k-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-33" value="Total_Cost=&lt;div&gt;Total_Labor_Cost + Material_Final_Price&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="656" y="540" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DwceKNtdtKpCWDS7X30k-35" target="DwceKNtdtKpCWDS7X30k-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-35" value="Total Cost&amp;nbsp;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="470" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DwceKNtdtKpCWDS7X30k-37" target="DwceKNtdtKpCWDS7X30k-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-37" value="End of program" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="270" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-39" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="100" y="540" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DwceKNtdtKpCWDS7X30k-41" target="DwceKNtdtKpCWDS7X30k-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-41" value="Step 1: Input Number of Hours" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#030303;" parent="1" vertex="1">
+          <mxGeometry x="240" y="190" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DwceKNtdtKpCWDS7X30k-43" target="DwceKNtdtKpCWDS7X30k-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-43" value="Step 2: Introduce Material Cost" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="445" y="160" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DwceKNtdtKpCWDS7X30k-45" target="DwceKNtdtKpCWDS7X30k-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwceKNtdtKpCWDS7X30k-45" value="Step 3: Time to calculate the Total Labor Cost" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#0F0F0F;" parent="1" vertex="1">
+          <mxGeometry x="635" y="120" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CZmMg53MhDzZOA_eNnDH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CZmMg53MhDzZOA_eNnDH-2" target="DwceKNtdtKpCWDS7X30k-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZmMg53MhDzZOA_eNnDH-2" value="Step 4: Time to calculate Material Final Price" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="950" y="415" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CZmMg53MhDzZOA_eNnDH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CZmMg53MhDzZOA_eNnDH-4" target="DwceKNtdtKpCWDS7X30k-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZmMg53MhDzZOA_eNnDH-4" value="Step 5: Final Calculation&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="950" y="555" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CZmMg53MhDzZOA_eNnDH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CZmMg53MhDzZOA_eNnDH-6" target="DwceKNtdtKpCWDS7X30k-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZmMg53MhDzZOA_eNnDH-6" value="Step 6: Print the Total Cost of the Remodeling Project" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="375" y="648" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CZmMg53MhDzZOA_eNnDH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CZmMg53MhDzZOA_eNnDH-8" target="DwceKNtdtKpCWDS7X30k-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZmMg53MhDzZOA_eNnDH-8" value="Step 7: Print End of Program" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="710" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
