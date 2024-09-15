@@ -1,0 +1,22 @@
+
+Module 4 - Exercise 1 Pseudocode - Frank
+
+# Start
+    # Variables:
+    number_to_guess: Integer
+    player_guess: Integer
+
+    Set number_to_guess to a specific value between 1 and 100
+    Display "Guess a number between 1 and 100"
+
+    While player_guess != number_to_guess
+        Read player_guess
+        If player_guess > number_to_guess Then
+            Display "Your guess is too high."
+        Else If player_guess < number_to_guess Then
+            Display "Your guess is too low."
+        Else
+            Display "Congratulations! You've guessed the correct number."
+        End If
+    End While
+# End

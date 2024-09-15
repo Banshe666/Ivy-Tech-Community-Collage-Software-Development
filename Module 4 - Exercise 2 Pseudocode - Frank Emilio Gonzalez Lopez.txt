@@ -1,0 +1,25 @@
+
+Module 4 - Exercise 2 Pseudocode - Frank
+
+# Start
+    # Variables:
+    target_word: String
+    current_word: String
+    opened_page: Integer
+
+    Set target_word to the word you want to look up (e.g., 'logic')
+    Open dictionary at a random page
+    Read current_word on that page
+
+    While current_word != target_word
+        If current_word is alphabetically before target_word Then
+            Flip forward to a later page
+            Read current_word on the new page
+        Else If current_word is alphabetically after target_word Then
+            Flip backward to an earlier page
+            Read current_word on the new page
+        Else
+            Display "The word has been found!"
+        End If
+    End While
+# End
