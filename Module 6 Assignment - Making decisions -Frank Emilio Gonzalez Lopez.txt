@@ -1,0 +1,35 @@
+START
+
+    Set monthlyBaseFee = 5.00
+    Set monthlyMessagesIncluded = 100
+    Set monthlyFirstTierLimit = 300
+    Set monthlyFirstTierRate = 0.03
+    Set monthlySecondTierRate = 0.02
+    Set taxRate = 0.14
+
+    input "Please enter your area code (3 digits):"
+    input "Please enter your phone number (7 digits):"
+    input "Please enter total number of text messages sent this month:"
+
+
+    IF totalMessages <= messagesIncluded THEN
+        extraCost = 0
+    ELSE IF totalMessages <= monthlyFirstTierLimit THEN
+        extraMessages = totalMessages - messagesIncluded
+        extraCost = extraMessages * monthlyFirstTierRate
+    ELSE
+        extraMessagesFirstTier = monthlyFirstTierLimit - messagesIncluded
+        extraMessagesSecondTier = totalMessages - monthlyFirstTierLimit
+        extraCost = (extraMessagesFirstTier * monthlyFirstTierRate) + (extraMessagesSecondTier * monthlySecondTierRate)
+    END IF
+
+    totalBeforeTax = baseFee + extraCost
+    tax = totalBeforeTax * taxRate
+    totalAfterTax = totalBeforeTax + tax
+
+    output "Your Area Code:", area_code
+    output "Your Phone Number:", phone_number
+    output "Your Total Messages Sent this month is :", total_messages
+    output "Your Total Bill before tax: $", total_before_tax
+    output "Your Total Bill after tax: $", total_after_tax
+STOP
